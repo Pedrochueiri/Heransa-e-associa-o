@@ -1,0 +1,22 @@
+package br.com.fiap;
+
+public class Quadrado {
+	private float lado;
+	
+	public Quadrado() {
+		
+	}
+	public Quadrado(float lado) {
+		this.lado = lado;
+	}
+	public float getLado() {
+		return lado;
+	}
+	public void setLado(float lado) {
+		this.lado = lado;
+	}
+	public float calculaArea() {
+		float area = lado * lado;
+		return area;
+	}
+}
